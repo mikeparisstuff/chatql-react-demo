@@ -1,0 +1,13 @@
+{
+    "AppSyncApiName": "chatqldemo",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcognitoff546251",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "schemaGraphql": "s3://chatql-react-demo-20181128125014-deployment/amplify-appsync-files/schema.graphql.1543438678088",
+    "ResolverBucket": "chatql-react-demo-20181128125014-deployment",
+    "ResolverRootKey": "amplify-appsync-files",
+    "DeploymentTimestamp": "1543438678088"
+}
